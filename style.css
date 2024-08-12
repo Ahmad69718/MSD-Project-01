@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container
+{
+    background-image: url('https://www.skymetweather.com/content/wp-content/uploads/2018/03/ARTT5.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+.box img
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+}
+
+.nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0 ,.1);
+    padding:15px 30% 15px 30%;
+    
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-size: larger;
+    
+}
+
+
+.box
+{
+    padding-top: 100px;
+}
+.desc{
+     padding-top: 25px;
+     font-size: x-large;
+     text-decoration: none;
+     font-weight: 200;
+
+}
+
+.signin{
+    padding-top: 40px;
+}
+.button {
+    width: 150px;
+    height:30px;
+    border: 2px solid rgb(1, 0, 1);
+    border-radius: 7px;
+    
+   
+
+}
+.button:hover{
+    background-color: #ff9077 ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+/* Second div */
+.second
+{
+    background-color: rgba(229, 224, 224, 0.881);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 10%;
+    gap: 10px;
+}
+
+.card1,.card2,.card3
+{
+    display: flex;
+    background-color: white;
+
+}
+
+.desc-card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.button-desc
+{
+    padding-right: 10%;
+}
+
+.img-card img
+{
+    width: 400px;
+    height: 200px;
+
+}
+
+.heading
+{
+    font-size: 30px;
+}
+
+
+/* Third Div */
+.third {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h6 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #666;
+    padding: 0px 10% ;
+    font-size: 12px;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.rows img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.rows img:hover {
+    transform: scale(1.05);
+}
+
+
+/* last div */
+.last
+{
+    background-color: rgba(229, 224, 224, 0.881);
+    height: 80vh;
+    padding-top: 20px;
+
+}
+.top{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:cadetblue;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: x-large;
+    
+}
+
+.middle
+{
+    display: flex;
+    padding: 0px 100px 1px;
+    
+}
+
+
+#in1,#in2
+{
+    width: 310px;
+    height: 40px;
+}
+
+
+#in3
+{
+    width:624px;
+    height: 40px;
+}
+
+#in4
+{
+    width: 624px;
+    height: 100px;
+
+}
+
+
+button
+{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    border-color: rgb(5, 135, 241);
+    color: rgb(5, 135, 241);
+    float: right;
+    margin-right: 5px;
+}
+
+.subbmit-button :hover
+{
+    background-color:  rgb(160, 187, 209);
+}
+
+.r1
+{
+   margin-left: 60px;
+   margin-top: 10px;
+}
+
+.bottom
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input
+{
+    border: 0px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
